@@ -1,0 +1,158 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  background-color: yellow;
+  height: 120px;
+  width: 100%;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 40px;
+  transition: 1s;
+  padding-top: 45px;
+}
+
+header h1:hover {
+  text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 40px #ff0000,
+    0 0 80px #ff0000, 0 0 120px #ff0000, 0 0 160px #ff0000;
+}
+
+.template {
+  background-color: #1abc9c;
+  text-align: center;
+  height: 280px;
+  font-size: 20px;
+  padding-top: 40px;
+}
+
+.template h2 {
+  color: whitesmoke;
+  padding-top: 40px;
+  font-size: 25px;
+}
+.template p {
+  color: whitesmoke;
+  padding-top: 20px;
+  font-size: 17px;
+}
+
+ul {
+  display: flex;
+  background-color: rgb(66, 66, 66);
+  height: 55px;
+  list-style: none;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
+  padding-top: 12px;
+}
+
+li a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-weight: bold;
+  height: 55px;
+  font-size: 25px;
+}
+
+ul a:hover {
+  background-color: whitesmoke;
+  color: rgb(66, 66, 66);
+  border-radius: 20px;
+  font-size: 30px;
+}
+ul:hover {
+  height: 55px;
+}
+
+main{
+    display: flex;
+}
+.section1{
+ background-color: #f1f1f1;
+ width: 600px;
+}
+.section1 article{
+    width: 400px;
+    background-color: #e6e4e4;
+    height: 300px;
+    padding:30px;
+    margin: 30px;
+}
+.section1 h4{
+    font-size: 25px;
+}
+ .section1 p{
+     font-size: 17px;
+     padding-top: 40px;
+ }
+.section1 small{
+    margin-top: 10px;
+}
+.section1 a{
+    padding-top: -40px;
+    color: black;
+}
+
+.section2 {
+    padding:20px;
+    margin: 30px;
+}
+
+.section2 h3 {
+    font-size: 30px;
+}
+
+.contact_info {
+    display: flex;
+    padding: 30px;
+    width: 100%;
+    background-color: rgb(232, 232, 232);
+}
+label{
+    font-size: 18px;
+}
+input{
+    width: 850px;
+    height: 40px;
+    border-radius: 5px;
+    border: blanchedalmond;
+}
+select{
+    width: 850px;
+    height: 40px;
+    border-radius: 5px;
+}
+textarea{
+    width: 850px;
+    height: 160px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.map-section{
+    width:500px;
+    padding-left: 40px;
+}
+
+footer {
+background-color: black;
+color: white;
+height: 60px;
+text-align: center;
+padding-top: 20px;
+}
